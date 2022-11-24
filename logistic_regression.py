@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
-mal_data = pd.read_csv("/content/drive/MyDrive/Malayalam Models/Malayalam_offensive_data_Training-YT.csv")
+mal_data = pd.read_csv("https://github.com/subhradeep25-gan/DravidianSpam_Classifier/blob/master/Malayalam_offensive_data_Training-YT.csv")
+
 mal_data_test = pd.read_excel("/content/drive/MyDrive/final_test_mal-offensive-with-labels (1).xlsx")
 mal_data.drop("ID", axis = 1, inplace = True)
 mal_data_test.drop("ID", axis = 1, inplace = True)
